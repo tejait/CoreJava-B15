@@ -9,5 +9,9 @@ public class FindMinAndMax {
 		int min=list.stream().mapToInt(x->x).min().getAsInt();
 		int max=list.stream().mapToInt(x->x).max().getAsInt();
 		System.out.println("Max "+max+"   Min "+min);
+		
+		System.out.println("Max "+list.stream().mapToInt(x->x).max().getAsInt());
+		System.out.println("Min "+list.stream().mapToInt(x->x).min().getAsInt());
+	System.out.println("added................");
 	}
 }
